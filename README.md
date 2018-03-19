@@ -1,7 +1,17 @@
 # sprak-framework-with-kotlin-demo
 
+To build sources.
+```bash
+./gradlew build
+```
 
-## Directory structure
+Run this app
+```bash
+./gradlew run
+```
+
+
+### Directory structure
 
 ```bash
 .

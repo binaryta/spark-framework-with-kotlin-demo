@@ -9,10 +9,9 @@ class Main {
   companion object {
     @JvmStatic fun main(args: Array<String>) {
       SparkConfigure.init()
-      val map: Map<String, String> = hashMapOf("message" to "Hello World!")
-      get("/", { rq, rs -> 
-        println(rs)
-        ModelAndView(map, "index")
+      
+      get("/", { req, res -> 
+        ModelAndView(hashMapOf("message" to "Hello World!"), "index")
       }, JadeTemplateEngine())
     }
   }

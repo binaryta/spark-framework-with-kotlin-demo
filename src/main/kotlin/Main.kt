@@ -14,7 +14,7 @@ class Main {
 
       get("/", { rq, rs -> 
         println(rs)
-        ModelAndView(map, "foo")
+        ModelAndView(map, "index")
       }, JadeTemplateEngine())
     }
   }

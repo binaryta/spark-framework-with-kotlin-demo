@@ -10,6 +10,12 @@ Run this app
 ./gradlew run
 ```
 
+build frontend 
+```bash
+$ cd src/main/frontend
+$ yarn
+$ yarn build
+```
 
 ### Directory structure
 

@@ -1,5 +1,4 @@
 import { h, app } from "hyperapp"
-import { React } from 'react'
 
 const state = {
   count: 0
